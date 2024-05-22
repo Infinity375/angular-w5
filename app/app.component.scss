@@ -1,0 +1,79 @@
+.main-div{
+    width: 1500px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.horizontal-div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 2px solid #000;
+    width: fit-content;
+    padding: 15px 20px;
+}
+.vertical-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid #000;
+    width: fit-content;
+    padding: 15px 20px;
+}
+.douvle-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+}
+.redHor, .redVer, .yellowHor, .yellowVer, .greenHor, .greenVer{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.redHor{
+    background: #ff0000;
+}
+.yellowHor, .yellowVer{
+    background: #ffff0080;
+}
+.greenHor{
+    background: #00800080;
+}
+.redVer{
+    background: #ff000080;
+}
+.greenVer{
+    background: #008000;
+}
+.crossHor, .crossVer{
+    font-size: 16px;
+    padding: 6px 12px;
+    border: 1px solid #000;
+    height: fit-content;
+}
+.top-div, .bottom-div, .left-div, .right-div, .center-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.bottom-div{
+    flex-direction: row-reverse;
+}
+.left-div{
+    flex-direction: column-reverse;
+}
+.right-div{
+    flex-direction: column;
+}
+.problem-btn{
+    font-size: 24px;
+    padding: 6px 12px;
+    border: 1px solid #000;
+}
+button{
+    cursor: pointer;
+}
